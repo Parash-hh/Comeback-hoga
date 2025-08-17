@@ -79,11 +79,11 @@ nav a:hover {
 
 .hero {
     text-align: center;
-    padding: 120px 20px;
+    padding: 50px 20px;
 }
 
 .hero h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
     letter-spacing: -0.02em;
     color: var(--white);
@@ -453,4 +453,20 @@ nav {
         min-width: unset;
         grid-column: span 12 !important; /* full width on small screens */
     }
+}
+.profilepic {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;       
+    border-radius: 50%;      
+    border: 3px solid var(--orange-web); 
+    margin-bottom: 20px;
+    margin-top: 40px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4); 
+  
+}
+.avatar{
+     display: flex;
+    justify-content: center; 
+    align-items: center;  
 }
